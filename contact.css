@@ -1,0 +1,694 @@
+* { 
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    filter: brightness(98%);
+}
+
+body { 
+    height: 100%;
+    width: 100%;
+    min-height: 100%;
+    background-color: #d8d9da;
+}
+
+
+.container { 
+    margin: 25px;
+    padding: 25px;
+}
+
+
+header { 
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    font-family: 'Libre Baskerville', serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Source Code Pro', monospace;
+    display: flex;
+    align-items: center;
+    height: 100px;
+}
+
+li,a,button { 
+    text-transform: uppercase;
+    text-decoration: none;
+    list-style: none;
+    display: inline-block;
+    padding: 0px 20px;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+img { 
+    height: 200px;
+    width: 200px;
+    margin-right: auto;
+}
+header { 
+    display: flex;
+    padding: 30px 10%;
+}
+
+button { 
+    background-color: darkblue;
+    color: white;
+    border-radius: 50px;
+    height: 50px;
+}
+
+footer { 
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    font-family: 'Libre Baskerville', serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Source Code Pro', monospace;
+    padding: 30px;
+    text-align: center;
+    align-items: center;
+    height: 100px;
+    width: 100%;
+    bottom: 0;
+    background: #252151;
+    color: white;
+
+}
+
+footer span { 
+    color: white;
+}
+
+
+video { 
+    height: 1000px;
+    width: auto;
+    border-radius: 25px;
+    box-shadow: 2px 2px 2px 1px #c64937; 
+}
+
+section {
+    display: flex; 
+}
+
+.hero { 
+
+    padding: 100px;
+    text-align: center;
+    padding: 100px;
+    
+}
+
+.hero h1 { 
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    font-family: 'Libre Baskerville', serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Noto Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Source Code Pro', monospace;
+    margin-top: 0px;
+    margin-bottom: 25px;
+}
+
+.hero p { 
+    font-family: 'Comic Neue', cursive;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    font-family: 'Libre Baskerville', serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Noto Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Source Code Pro', monospace;
+    text-align: start;
+    margin-top: 50px;
+}
+
+.hero img { 
+    border-radius: 50px;
+    width: 100%;
+    height: 500px;
+    box-shadow: 2px 2px 2px 1px #c64937;    
+    
+}
+
+
+a:hover { 
+    text-decoration: underline;
+    color: #eb0707;
+    cursor: pointer;
+}
+
+button:hover { 
+    background: #c64937;
+    cursor: pointer;
+}
+
+.copyright { 
+    font-family: 'Comic Neue', cursive;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    font-family: 'Libre Baskerville', serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Noto Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Source Code Pro', monospace;
+    text-transform: uppercase;
+    background-color: #c64937;
+    text-align: center;
+    color: white;
+}
+
+
+.settings { 
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    padding: 25px;
+}
+
+.settings input { 
+}
+
+#brightness-range { 
+    width: 20%;
+    border-radius: 25px;    
+    outline: none;
+    cursor: pointer;
+}
+
+#brightness-range::-webkit-slider-thumb { 
+    -webkit-appearance: none;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    cursor: pointer;
+
+}
+
+#small-logo { 
+    height: 50px;
+    width: 50px; 
+
+}
+
+
+#bottom-content { 
+    width: 100%;
+    margin: 0px;
+}
+
+#bottom-content img { 
+    width: 100%;
+    height: 250px;
+    filter: brightness(50%);
+}
+
+footer a { 
+    color: white;
+    padding: 10px;
+}
+
+.active { 
+    text-decoration: underline;
+    color: #c64937;
+    cursor: pointer;
+}
+
+
+
+.right { 
+    width: 50%;
+    height: 600px;
+}
+
+.left { 
+    background-color: #c64937;
+    padding: 25px;
+    display: flex;
+    width: 50%;
+    height: 1000px;
+    flex-direction: column;
+}
+
+.left h1 { 
+    font-family: 'Comic Neue', cursive;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    font-family: 'Libre Baskerville', serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Noto Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Source Code Pro', monospace;
+    margin-left: 10%;
+    text-align: start;
+}
+
+.left img { 
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    position: relative;
+    height: 600px;
+    width: 600px;
+    padding: 25px;
+    border-radius: 40%;
+    filter: brightness(90%);
+    box-shadow: 1px 1px 1px 1px #252151; 
+}
+
+.left p { 
+    font-family: 'Comic Neue', cursive;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    font-family: 'Libre Baskerville', serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Noto Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Source Code Pro', monospace;
+    margin-left: 20%;
+    padding: 25px;
+    text-align: start;
+    
+}
+
+.text-format { 
+    margin-left: auto;
+    margin-right: auto;
+}
+.front { 
+    font-family: 'Comic Neue', cursive;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    font-family: 'Libre Baskerville', serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Noto Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Source Code Pro', monospace;
+    color: blue;
+}
+
+.end { 
+    font-family: 'Comic Neue', cursive;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    font-family: 'Libre Baskerville', serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Noto Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Source Code Pro', monospace;
+    color: #c64937;
+}
+
+.developer { 
+    font-family: 'Comic Neue', cursive;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    font-family: 'Libre Baskerville', serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Noto Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Source Code Pro', monospace;
+    color: darkblue;
+    margin-left: 50px;
+    text-decoration: underline;
+    margin-bottom: 20px;
+}
+
+.right { 
+    background-color: #c64937;
+    font-family: 'Comic Neue', cursive;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    font-family: 'Libre Baskerville', serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Noto Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Source Code Pro', monospace;
+    margin: 100px;
+    padding: 0px;
+    display: flex;
+    width: 50%;
+    height: 1000px;
+    flex-direction: column;
+    border-radius: 30px;
+}
+
+.right h1 { 
+    text-align: center;
+}
+
+.right h2 { 
+    margin-top: 25px;
+    text-align: center;
+}
+
+
+.right i { 
+    font-size: 75px;
+    text-align: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.stars { 
+    margin-top: 10px;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.stars i { 
+    margin: 10px;
+    font-size: 25px;
+}
+
+.skills { 
+    font-family: 'Comic Neue', cursive;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    font-family: 'Libre Baskerville', serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Noto Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Source Code Pro', monospace;
+}
+
+.skills h1 { 
+    margin:  150px;
+}
+
+#flutter { 
+    text-decoration: line-through;
+}
+
+.button-active { 
+    background-color: #c64937;
+}
+
+
+
+
+.contact { 
+    width: 50%;
+    background-color: #c64937;
+
+}
+
+.card { 
+    display: flex;
+    padding: 25px;
+    margin: 25px;
+    flex-direction: column;
+    align-items: center;
+    text-align: start;
+}
+.left-section { 
+    font-family: 'Comic Neue', cursive;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    font-family: 'Libre Baskerville', serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Noto Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Source Code Pro', monospace;
+    width: 40%;
+    height: auto;
+    box-shadow: 1px 1px 20px 1px #252151; 
+    background-color: #d8d9da;
+    border-radius: 50px;
+    margin-left: 5%;
+}
+
+.right-section { 
+    font-family: 'Comic Neue', cursive;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    font-family: 'Libre Baskerville', serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Noto Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Source Code Pro', monospace;
+    height: 1000px;
+    width: 60%;
+}
+
+.left-section h1 { 
+    font-size: 50px;
+    color: #252151;
+}
+
+label {
+    font-size: 20px;
+    text-decoration: underline;
+    color: #252151;
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"]
+{
+    width: 80%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+textarea { 
+    height: 400px;
+    width: 80%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+
+.left-section h1 {
+    margin: 25px;
+    padding: 25px;
+    text-align: center;
+}
+
+.right-section h1 { 
+    text-align: center;
+}
+
+iframe { 
+    border-radius: 25px;
+    box-shadow: 1px 15px 20px 1px #252151; 
+}
+
+.right-section h2 , p  { 
+    text-align: center;
+}
+
+.right-section p { 
+    text-decoration: underline;
+}
+
+.container1 { 
+    margin: 25px;
+    padding: 25px;
+}
+
+.container1 img { 
+    transition: transform .7s ease-in-out;
+}
+
+.container1 :hover{ 
+    transform: rotate(360deg);
+    cursor: pointer;
+}
+
+.new-section { 
+    font-family: 'Comic Neue', cursive;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    font-family: 'Libre Baskerville', serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Noto Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Source Code Pro', monospace;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.new-section i {
+    text-align: center;
+    font-size: larger;  
+}
+
+.new-card { 
+    margin: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: auto;
+    width: auto;
+
+}
+
+.new-card img { 
+    
+    height: 250px;
+    width: 250px;
+    border-radius: 40%;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 25px;
+    
+}
+
+.job-text { 
+    text-align: start;
+    display: flex;
+    align-content: center;
+    margin: 10px;
+}
+
+.job-text h3 , span { 
+    margin-left: 25px;
+}
+
+.job-text a { 
+    font-size: 25px;
+    display: flex;
+}
+
+.new-card h2 { 
+    text-shadow: 1px 1px #252151;
+    text-align: center;
+}
+
+.container5 { 
+    width: 90%;
+    margin-top: 0px;
+    padding: 25px;
+    border-radius: 10px;
+    margin-bottom: 100px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+
+.container5 h3 { 
+    text-decoration: underline;
+    text-transform: uppercase;
+    text-align: start;
+}
+
+
+.container7 { 
+    font-family: 'Comic Neue', cursive;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    font-family: 'Libre Baskerville', serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Noto Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Source Code Pro', monospace;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 25px;
+}
+
+.container7 h1 { 
+    
+    margin: 10px;
+    text-transform: uppercase;
+    color: #171718;
+    text-shadow: 2px 1px #050407;
+    text-align: center;
+}
+
+.job-text2 { 
+    text-shadow: 1px 1px #252151;
+    margin: 10px;
+    text-align: center;
+}
+
+.job-text2 a { 
+    font-size: 30px;
+}
+
+.container8 { 
+    display: flex;
+    flex-direction: column;
+    box-shadow: 1px 1px 1px 1px #252151; 
+    margin: 50px;
+    filter: brightness(95%);
+    
+}
+
+.stars { 
+    margin-top: 10px;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.stars i { 
+    margin: 3px;
+    font-size: 20px;
+}
+
+.yellow { 
+    color: #ffe234;
+    text-shadow: 2px 2px black;
+}
+
+.job-text h4 { 
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    text-transform: uppercase;
+}
+.stars p {
+    margin-left: 25px;
+    text-decoration: underline;
+}
+
+.stars h4 { 
+    background-color: #ffe234;
+    height: auto;
+    width: 50px;
+    text-align: center;
+    border-radius: 50%;
+    text-shadow: 1px 1px black;
+    box-shadow: 1px 1px 1px 1px #bbbbbb; 
+}
+
+.message { 
+    font-family: 'Comic Neue', cursive;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    font-family: 'Libre Baskerville', serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Noto Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Source Code Pro', monospace;
+    display: flex;
+    justify-content: end;
+}
+
+.secret { 
+    margin: 25px;
+    padding: 25px;
+    background-color: #252151;
+    text-align: center;
+    color: #c64937;
+    box-shadow: 10px 10px 10px 10px #bbbbbb; 
+    text-shadow: 2px 2px #bbbbbb;
+    border-radius: 50px;
+}
+
+.message:hover {
+    visibility: visible;
+}
+
+.secret:hover { 
+    background: green;
+}
+
+.right-section i { 
+    padding: 25px;
+    font-size: 50px;
+}
+
+.card1 { 
+    display: flex;
+
+    align-items: center;
+    text-align: start;
+    justify-content: center;
+}
